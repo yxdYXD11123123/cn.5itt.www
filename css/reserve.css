@@ -1,0 +1,143 @@
+.logo {
+  margin-top: 0.3125rem;
+  margin-bottom: 0.3125rem;
+  margin-left: 0.625rem;
+}
+
+.logo img {
+  width: 6.25rem;
+  height: 1.8125rem;
+}
+
+nav {
+  width: 100%;
+  height: 1.4375rem;
+  background-color: #3099dd;
+}
+
+nav a {
+  float: left;
+  height: 100%;
+  width: 20%;
+  border-right: 1px solid #298ed0;
+  color: white;
+  line-height: 1.4375rem;
+  text-align: center;
+}
+
+nav a:nth-child(5) {
+  border-right: none;
+}
+
+nav a:focus {
+  background-color: #52aae3;
+}
+
+main {
+  padding: 0 0.46875rem;
+  background-color: black;
+  color: white;
+  padding-top: 0.78125rem;
+  font-size: 0.4375rem;
+  padding-bottom: 0.3125rem;
+}
+
+main h2, main h3 {
+  text-align: center;
+}
+
+main h2 {
+  font-size: 0.75rem;
+}
+
+main h3 {
+  font-size: 0.4375rem;
+  line-height: 0.9375rem;
+}
+
+main div {
+  padding-top: 0.21875rem;
+  padding-bottom: 0.25rem;
+}
+
+main div:nth-last-child(2) {
+  padding-bottom: 0.625rem;
+}
+
+main h5 {
+  font-size: 0.4375rem;
+  margin-bottom: 0.3125rem;
+}
+
+main h5:after {
+  content: " *";
+  color: red;
+  font-size: 0.4375rem;
+}
+
+main input {
+  width: 100%;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 1.125rem;
+  color: #333333;
+  padding: 0 0.3125rem;
+}
+
+main input:focus {
+  outline: transparent;
+}
+
+main button {
+  display: block;
+  height: 1.25rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.25rem;
+  text-align: center;
+  border: none;
+  border-radius: 0.125rem;
+  background-color: #e75845;
+  font-size: 0.4375rem;
+}
+
+main button:focus {
+  outline: transparent;
+}
+
+.modal-body {
+  padding: 0;
+  font-size: 0.625rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.modal button:focus {
+  outline: transparent;
+}
+
+.modal div:focus {
+  outline: transparent;
+}
+
+footer {
+  background-color: #999999;
+  padding: 0 0.3125rem;
+  padding-bottom: 0.625rem;
+}
+
+footer p {
+  font-size: 0.375rem;
+  color: white;
+  line-height: 1.75;
+  margin: 0;
+}
+
+footer p:nth-child(1) {
+  font-size: 0.4375rem;
+  font-weight: bold;
+  font-family: "SimHei";
+}
+/*# sourceMappingURL=reserve.css.map */

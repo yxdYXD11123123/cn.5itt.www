@@ -1,5 +1,6 @@
 a:focus, a:hover {
     text-decoration: none;
+    color: white;
 }
 
 
@@ -9,4 +10,14 @@ li {
 
 ul {
     padding: 0;
+    margin: 0;
 }
+
+h6, h5, h4, h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+

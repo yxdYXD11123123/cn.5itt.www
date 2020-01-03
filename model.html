@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- 一定不要忘记引入bootstrap 的样式文件 -->
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/model.css">
+    <script src="./js/flexible.debug.js"></script>
+    <script src="./lib/bootstrap-3.3.7-dist/jquery.min.js"></script>
+    <script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('#myCarousel').carousel({ interval: 3000 });
+        })
+    </script>
+    <script>
+        $(function () {
+            $('#myCarouselTwo').carousel({ interval: 3000 });
+        })
+    </script>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="./img/logo.jpg" alt="">
+    </div>
+    <nav>
+        <a href="index.html">首页</a>
+        <a href="about.html">走进天童</a>
+        <a href="model.html">教学模式</a>
+        <a href="recent.html">最新动态</a>
+        <a href="join.html">加入我们</a>
+    </nav>
+    <!-- 天童五大教学理念 -->
+    <div class="idea">
+        <h3>天童五大教学理念</h3>
+        <!-- 轮播图部分 -->
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./img/idea_1.jpg" alt="First slide">
+                    <div>
+                        <h4>浸入式学习</h4>
+                        <p>天童课堂为全英文的母语式教学，并进行实际的生活场景模拟和西方节庆的体验，同时还有外教课堂，让孩子们虽然不在国外，也能体验国外的氛围。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/idea_2.jpg" alt="Second slide">
+                    <div>
+                        <h4>互动式学习</h4>
+                        <p>课堂上，教师仅为教学的引导者，通过大量的互动学习，学生成为学习的主体和主角。同时，课堂广泛使用互动课件，这样直观鲜活的互动表现形式，大大提高了孩子的学习热情和探索欲望。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/idea_3.jpg" alt="Second slide">
+                    <div>
+                        <h4>快乐学习</h4>
+                        <p>兴趣是最好的老师，课堂上大量的情境、游戏、活动设计，教具、表演的使用，都让学生乐在其中。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/idea_4.jpg" alt="Second slide">
+                    <div>
+                        <h4>多元智能学习</h4>
+                        <p>每节课都有家长的参与，搭建了家庭共同成长的学习平台，让孩子在接受英语教育的同时，父母也能接受国际先进的教育理念和英文的学习，从而实现家庭和学校对孩子的共同教育，并增进亲子关系。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/idea_5.jpg" alt="Second slide">
+                    <div>
+                        <h4>家庭式学习</h4>
+                        <p>每节课都有家长的参与，搭建了家庭共同成长的学习平台，让孩子在接受英语教育的同时，父母也能接受国际先进的教育理念和英文的学习，从而实现家庭和学校对孩子的共同教育，并增进亲子关系。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 天童的学习规划 -->
+    <div class="plan">
+        <h4>天童的学习规划</h4>
+        <ul>
+            <li>
+                <h5>启蒙口语幼儿班（3-6岁）</h5>
+                <p>通过自然拼音、歌曲数来宝、游戏活动教学法，达成学生能够认读、背写单词；积累生活词汇；能唱会跳英文歌曲；能够进行自我介绍和日常交流。</p>
+            </li>
+            <li>
+                <h5>基础双轨儿童班（6-9岁）</h5>
+                <p>通过自然拼音、情境会话、逻辑思维训练等方式夯实学生口语表达，达成流畅短文认读、丰富口语问答、热爱情景表演、有逻辑性的进行描述、看图说话、甚至演讲的语篇表达的能力。</p>
+            </li>
+            <li>
+                <h5>中级双轨少儿班（9-12岁）</h5>
+                <p>通过听力短文训练、阅读短文训练、看图说话、演讲、自编情境会话、发散思维训练等方式全面提高中级学员英语听、说、读、写四个方面的能力，学生能做100字以上的口头作文及演讲。从此阶段开始，采用双轨制（口语+应试）教学，两种课程相辅相成，使得学生的听、说、读、写、语法与应试能力同步提升！
+                </p>
+            </li>
+            <li>
+                <h5>高级双轨少儿班（12-15岁）</h5>
+                <p>通过长篇听力短文训练、长篇阅读短文训练、口头作文、主题演讲、辩论、视频讨论、写作训练等方式全面提高中级学员英语听力、口语、阅读、写作四个方面的能力，全方面培养读、写、译的英文能力。不仅保证孩子在校高分，更能在中考前掌握全面考点，为复习其他科目腾出更多时间。
+                </p>
+            </li>
+            <li>
+                <h5>天童应试课程</h5>
+                <p>是基础、及中高级双轨班系统中的应试英语课程。适合6岁儿童至15岁青少年。9年制长线应试教学规划涵盖适合小学低年组、中高年组、初中课程、及中考冲刺系列高品质课程内容。课程品质追求趣味讲解+高效课堂吸收，达成优异教学成效。自2004年，天童小学1年级至初中3年级学员，在参加各个城市的各个中小学的期中期末考试中，80%的学员达到95分以上，40%取得满分。
+                </p>
+            </li>
+        </ul>
+    </div>
+    <!-- 天童八大教学法 -->
+    <div class="method">
+        <h3>天童八大教学法</h3>
+        <!-- 轮播图部分 -->
+        <div id="myCarouselTwo" class="carousel slide carousel-fade">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarouselTwo" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarouselTwo" data-slide-to="1"></li>
+                <li data-target="#myCarouselTwo" data-slide-to="2"></li>
+                <li data-target="#myCarouselTwo" data-slide-to="3"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_1.jpg" alt="">
+                        <p>直接教学法</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_2.jpg" alt="">
+                        <p>互动式教学法</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_3.jpg" alt="">
+                        <p>情景教学法</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_4.jpg" alt="">
+                        <p>听说教学法</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_5.jpg" alt="">
+                        <p>歌谣韵文教学法</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_6.jpg" alt="">
+                        <p>沟通式教学法</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_7.jpg" alt="">
+                        <p>自然拼音教学法</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./img/teaching_method_8.jpg" alt="">
+                        <p>肢体反应教学法</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 创意智能互动教学 -->
+    <div class="interactive">
+        <h3>创意智能互动教学</h3>
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <img src="./img/interactive_1.jpg" alt="">
+                    <p>情景秀</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./img/interactive_2.jpg" alt="">
+                    <p>时尚经典歌曲</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./img/interactive_3.jpg" alt="">
+                    <p>英美文化欣赏</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./img/interactive_4.jpg" alt="">
+                    <p>电影教学</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./img/interactive_5.jpg" alt="">
+                    <p>语法口诀</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="./img/interactive_6.jpg" alt="">
+                    <p>自然拼音</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 电子白板教学课件 -->
+    <div class="whiteboard">
+        <h3>“电子白板” 教学课件</h3>
+        <ul>
+            <li>
+                <img src="./img/whiteboard_2.jpg" alt="">
+                <p>动画歌曲活泼有趣，激发学习兴趣</p>
+            </li>
+            <li>
+                <img src="./img/whiteboard_1.jpg" alt="">
+                <p>创设生活情境，提供多元化的学习方式</p>
+            </li>
+            <li>
+                <img src="./img/whiteboard_3.jpg" alt="">
+                <p>丰富多彩的练习形式，有利于巩固知识提高能力</p>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>服务热线：024-88539995</p>
+        <p>周一至周日 09:00~18:00</p>
+        <p>地址：辽宁省沈阳市大东区小北关街27-3号</p>
+        <p>Email：tiantong999@126.com</p>
+        <p>&copy;沈阳市天童快乐美语培训中心</p>
+    </footer>
+</body>
+
+</html>
